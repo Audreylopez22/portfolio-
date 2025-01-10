@@ -1,0 +1,67 @@
+{
+    "header": {
+        "badgeText": "Design · Development · Custom solutions",
+        "subtitle": "Developing ideas, creating solutions since 2023",
+        "title": "Projects that Transform",
+        "buton1": "About us",
+        "buton2": "Projects"
+    },
+    "section":{
+        "title": "Projects",
+        "about": "About us"
+    },
+    "cards":{
+        "subtitle1": "Senior Developer",
+        "subtitle2": "Web Developer"
+    },
+    "projects": {
+        "catarsisLab": {
+            "title": "Catarsis Lab",
+            "description": "We developed a website for personal growth workshops, a space dedicated to offering workshops that allow exploring emotions.",
+            "technologies": ["React", "MUI", "Sanity", "Vercel"],
+            "link": "https://mycatarsis.com/",
+            "imageUrl": "assets/CATARSIS_lab.png",
+            "buttonText": "view site"
+        },
+        "payrollMate":{
+            "title": "Redux Payroll Mate",
+            "description": "We developed an application that automates payroll calculations and generates payment slips, optimizing the payroll management process for employees.",
+            "technologies": ["Python", "Openpyxl", "Streamlit"],
+            "link": "https://redux-payroll-mate.streamlit.app/",
+            "imageUrl": "assets/payrollMate.png",
+            "buttonText": "view site"
+        },
+        "vijalmar": {
+            "title": "Vijalmar",
+            "description": "An application was developed to automate the counting of overtime hours and calculate their value, including surcharges, optimizing the payroll management process.",
+            "technologies": ["Python", "Openpyxl", "Streamlit"],
+            "link": "https://audreylopez22.github.io/vijalmar/",
+            "imageUrl": "assets/vijalmar.png",
+            "buttonText": "view site"
+        },
+        "nataliaForero":{
+            "title": "Natalia Forero",
+            "description": "A website was developed for the Natalia Forero brand, where beachwear and swimwear collections are exhibited, and online sales of these products are managed.",
+            "technologies": ["Shopify"],
+            "link": "https://nataliaforero.co/",
+            "imageUrl": "https://nataliaforero.co/cdn/shop/files/IMG_8639.jpg?v=1666731217&width=735",
+            "buttonText": "view site"
+        },
+        "soundBayHouse": {
+            "title": "Sound Bay House",
+            "description": "A website was developed for the Sound Bay House brand, where the services offered by the recording studio are exhibited, and the online reservation of the recording studio is managed.",
+            "technologies": ["Shopify / Izi Rent"],
+            "link": "https://soundbayhouse.com/",
+            "imageUrl": "assets/SBH.png",
+            "buttonText": "view site"
+        },
+        "zaku": {
+            "title": "Zaku",
+            "description": "A website was developed for the Zaku brand, where the products offered by the brand are exhibited, and online sales of these products are managed.",
+            "technologies": ["Figma"],
+            "link": "https://www.figma.com/proto/BL5nDcu7AnftLsTeT7StBd/Zaku?node-id=78-536&p=f&t=roGIQHHdiVhamEpS-0&scaling=scale-down&content-scaling=fixed&page-id=11%3A2&starting-point-node-id=78%3A536",
+            "imageUrl": "assets/Zaku.png",
+            "buttonText": "view site"
+        }
+    }
+}

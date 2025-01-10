@@ -1,0 +1,68 @@
+{
+    "header": {
+        "badgeText": "Diseño · Desarrollo · soluciones a medida",
+        "subtitle": "Desarrollamos Ideas, creamos soluciones desde 2023",
+        "title": "Proyectos que Transforman",
+        "buton1": "Nosotros",
+        "buton2": "Proyectos"
+    },
+    "section":{
+        "title": "Proyectos",
+        "about": "Nosotros"
+
+    },
+    "cards":{
+        "subtitle1": "Desarollador Senior",
+        "subtitle2": "Desarolladora Web"
+    },
+    "projects": {
+        "catarsisLab": {
+            "title": "Catarsis Lab",
+            "description": "Desarrollamos una página web para talleres de crecimiento personal, un espacio dedicado a ofrecer talleres que permiten explorar emociones.",
+            "technologies": ["React", "MUI", "Sanity", "Vercel"],
+            "link": "https://mycatarsis.com/",
+            "imageUrl": "assets/CATARSIS_lab.png",
+            "buttonText": "Ver sitio"
+        },
+        "payrollMate":{
+            "title": "Redux Payroll Mate", 
+            "description": "'Desarrollamos una aplicación que automatiza el cálculo de nóminas y genera comprobantes de pago, optimizando el proceso de gestión salarial para los empleados",
+            "technologies": ["Python", "Openpyxl", "Streamlit"],
+            "link": "https://redux-payroll-mate.streamlit.app/",
+            "imageUrl": "assets/payrollMate.png",
+            "buttonText": "Ver sitio"
+        },
+        "vijalmar": {
+            "title": "Vijalmar",
+            "description": "Se desarrolló una aplicación para automatizar el conteo de horas extras y el cálculo de su valor, incluyendo recargos optimizando el proceso de gestión salarial.",
+            "technologies": ["Python", "Openpyxl", "Streamlit"],
+            "link": "https://audreylopez22.github.io/vijalmar/",
+            "imageUrl": "assets/vijalmar.png",
+            "buttonText": "Ver sitio"
+        },
+        "nataliaForero":{
+            "title": "Natalia Forero",
+            "description": "Se desarrolló un sitio web para la marca Natalia Forero, donde se exhiben colecciones de ropa de playa y vestidos de baño, y se gestiona la venta online de estos productos.",
+            "technologies": ["Shopify"],
+            "link": "https://nataliaforero.co/",
+            "imageUrl": "https://nataliaforero.co/cdn/shop/files/IMG_8639.jpg?v=1666731217&width=735",
+            "buttonText": "Ver sitio"
+        },
+        "soundBayHouse": {
+            "title": "Sound Bay House",
+            "description": "Desarrollamos una página web en Shopify, integrando la gestión de clientes, reservas y marketing en un solo sitio. Esto optimiza procesos y mejora la experiencia del usuario",
+            "technologies": ["Shopify / Izi Rent"],
+            "link": "https://soundbayhouse.com/",
+            "imageUrl": "assets/SBH.png",
+            "buttonText": "Ver sitio"
+        },
+        "zaku": {
+            "title": "Zaku",
+            "description": "Se diseñó una aplicación móvil que facilita la realización de donaciones a organizaciones benéficas y muestra el impacto generado por estas contribuciones.",
+            "technologies": ["Figma"],
+            "link": "https://www.figma.com/proto/BL5nDcu7AnftLsTeT7StBd/Zaku?node-id=78-536&p=f&t=roGIQHHdiVhamEpS-0&scaling=scale-down&content-scaling=fixed&page-id=11%3A2&starting-point-node-id=78%3A536",
+            "imageUrl": "assets/Zaku.png",
+            "buttonText": "Ver Diseño"
+        }
+    }
+}

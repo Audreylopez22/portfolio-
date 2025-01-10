@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <section class="py-0">
+                <div class="container-fluid px-0 mb-0">
+                    <div class="translate">
+                        <label class="switch">
+                            <input type="checkbox" id="languageToggle" data-language="es">
+                            <span class="slider"></span>
+                        </label>
+                        <span id="languageText">ES</span>
+                    </div>
+                </div>
+            </section>
+            <!-- Header-->
+            <header  class="py-5">
+                <div class="container px-4 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5 mx-auto">
+                            <!-- Header text content-->
+                            <div class="text-center">
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase" data-section="header" data-value="badgeText" >Diseño &middot; Desarrollo &middot; soluciones a medida</div></div>
+                                <div class="fs-3 fw-light text-muted" data-section="header" data-value="subtitle">Desarrollamos Ideas, creamos soluciones desde 2023</div>
+                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline" data-section="header" data-value="title" >Proyectos que Transforman</span></h1>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#aboutus" data-section="header" data-value="buton1" >Nosotros </a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#projects" data-section="header" data-value="buton2">Proyectos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- projects Section-->
+            <section id="projects"  class="py-5">
+                <div class="container-fluid px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline" data-section="section" data-value="title">Proyectos </span></h1>
+                    </div>
+                    <div class="row gx-4 gy-4" id="projects-container"></div>
+                </div>
+            </section>
+            <section id="aboutus"  class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 id="about.title" class="display-5 fw-bolder"><span class="text-gradient d-inline" data-section="section" data-value="about">Nosotros</span></h2>
+                                <div class="row gx-5 mt-5">
+                                    <!-- Card 1 -->
+                                    <div class="col-xl-6 col-md-6 mb-4">
+                                        <div class="card border-0 shadow">
+                                            <img src="https://media.licdn.com/dms/image/v2/C4D03AQE5K8auhUOeeg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1642165450364?e=1741824000&v=beta&t=ibjc0heCWN7H-l-EwDlyiF8jQlZg_EXIuxB8jF-f43s" class="card-img-top" alt="William Vargas">
+                                            <div class="card-body text-center">
+                                                <h5 id= "about.name1"class="card-title mb-0">William Vargas</h5>
+                                                <div id= "about.sub1" class="card-text text-black-50" data-section="cards" data-value="subtitle1">Desarrollador senior</div>
+                                                <a class="text-gradient" href="https://www.linkedin.com/in/tecnowilliam/"><i class="bi bi-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 2 -->
+                                    <div class="col-xl-6 col-md-6 mb-4">
+                                        <div class="card border-0 shadow">
+                                            <img src="https://media.licdn.com/dms/image/v2/C4E03AQGwH2msfSJ99g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1600051291106?e=1741824000&v=beta&t=5qr6llzBl1LorXFeMJDSt607nha2YKCdzgLuipEipiY" class="card-img-top" alt="Audrey Vanessa López Hoyos">
+                                            <div class="card-body text-center">
+                                                <h5 id= "about.name2" class="card-title mb-0">Audrey Vanessa López Hoyos</h5>
+                                                <div id= "about.sub2" class="card-text text-black-50"  data-section="cards" data-value="subtitle2">Desarrolladora Web</div>
+                                                <a class="text-gradient" href="https://www.linkedin.com/in/lopez-audrey/"><i class="bi bi-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row justify-content-center ">
+                    <div class="col-auto "><div class="small m-0">Copyright &copy; 2025</div></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
