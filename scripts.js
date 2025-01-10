@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentLanguage = 'es';
 
     const loadLanguage = (language) => {
-        fetch(`../languajes/${language}.json`)
+        fetch(`${language}.json`)
             .then((response) => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
